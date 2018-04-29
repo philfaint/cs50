@@ -1,0 +1,16 @@
+1.  stdint is a header file that contains declarations for special data types like uint8_t,
+    which is an unsigned int of at least 8 bits.
+2.  to define a certain type that is at least 8,32,32 and 16 bits. In case when we declare
+    a variable int, on different OS and processor, in can store different amount of memory,
+    while uint8_t tells the compiler to have at least 8 bits for this variable
+3.  8 bits, 32 bits unsigned, 32 bits signed, 16 bits
+4.  424d
+5.  bfSize - the total size of the actual file including pixels, padding and headers
+    biSize - total size of image including pixels and padding
+6.  if biHeight is negative, than the beginning of the image is bottom top
+7.  bitCount
+8.  fopen may return NULL if it's not able to open or create a file
+9.  3rd argument of the fread function because it reads 1 struct from the file
+10. padding is equal to 0
+11. fseek function changes the position of the cursor inside the file
+12. SEEK_CUR in fseek function as argument sets the original cursor position to the current position.

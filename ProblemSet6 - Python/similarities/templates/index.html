@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+    <h1> Compare the edit cost of two strings. </h1>
+    <form action="/score" method="post">
+        <p>
+            <input name="string1" placeholder = "String 1" type = "text" size = "100"> <br />
+            <br />
+            <input name="string2" placeholder = "String 2" type = "text" size = "100"> <br />
+            <br />
+            <input type="submit" vaulue="Compare"> <br />
+        </p>
+    </form>
+
+{% endblock %}
